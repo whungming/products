@@ -13,3 +13,8 @@ while True:
 print(products)
 print(products[0][0])
 print(products[1][1])
+
+for p in products:
+	print(p)#show every list of name and price
+	print(p[0])#show every list of name
+	print(p[0], '的價格是', p[1])
